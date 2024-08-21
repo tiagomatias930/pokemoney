@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/stile02.css">
+  <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <title>Pokemony</title>
+</head>
+
+<body>
+  <!--Top do layoutA!-->
+  <header class="top">
+    <img src="/assets/css/images-removebg-preview.png" alt="logo" id="imagem">
+  <br>
+    <h4>Pokemoney</h4>
+  </header>
+  
+  <section class="content">
+    
+    <!-- Dados bancários aleatórios!-->
+        
+         <div class="border row">
+            <div class="col col-8" id="textoleft">
+         <p>Nome do Banco </p><input type="text" name="nomebanco" id="nameBank" value="" class="form form-control">
+        <br>
+         <img src="" alt="logobank" id="logobank">
+         <p>Número da Conta </p><input type="text" name="numeroConta" id="numConta" value=""  class="form form-control"/>
+        <br>
+         <p>Id Ativo</p><input type="text" name="Id" id="Id" value=""  class="form form-control">
+       <br>
+         </div>
+       
+       </div>
+       <div class="row">
+        <div class="col col-12">
+          <input type="submit" value="Continuar" id="continuar" onclick="continuar()" class="btn btn-warning">
+      
+          <input type="reset" value="Gerar Outro" id="gerarOutro" onclick="carregar ()" class="btn btn-success text-dark">
+        </div>
+       </div>
+     
+  </section>
+
+<footer>
+  
+  <div class="rodape">
+    
+  </div>
+  
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>

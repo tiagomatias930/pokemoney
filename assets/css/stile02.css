@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px) {
+  /* Exemplo de estilo para telas menores */
+  body {
+    font-size: 16px;
+    margin: 10px;
+  }
+  /* Você pode adicionar mais estilos aqui */
+}
+
+/* Estilos para dispositivos com largura de tela entre 769px e 992px */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* Exemplo de estilo para telas médias */
+  header {
+    margin: auto;
+  }
+  /* Você pode adicionar mais estilos aqui */
+}
+
+/* Estilos para dispositivos com largura de tela maior ou igual a 993px */
+@media screen and (min-width: 993px) {
+  /* Exemplo de estilo para telas maiores */
+  .content {
+    max-width: 1200px;
+  }
+}
+
+h4{
+  margin-left: 8%;
+  font-style: italic;
+  color: white;
+}
+
+body{
+  background-color: coral;
+ 
+}
+
+#imagem{
+   margin-left: 20%;
+   border-radius: 50%;
+   padding: 1%;
+   width: 77px;
+   float: left;
+  
+}
+
+.content{
+   margin-top: 3%;
+   margin-right: 28%;
+   margin-left: 28%;
+}
+
+.border{
+  text-align: center;
+  display: block;
+  background-color: white;
+  border-radius: 8px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#logobank{
+   
+   border-radius: 55%;
+   width: 150px;
+}
+input{
+   
+   text-align: center;
+   color: black;
+   background-color: white;
+   background-size: cover;
+   border-radius: 5px;
+   border-color: coral;
+}
+
+p{
+  color: orange;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+#continuar{
+   
+color: white;
+border-radius: 7px;  
+background-color: darkorange;
+margin-left: 38%;
+text-align: center;
+margin-top: 2%;
+margin-bottom: 2%;
+font-size: 17px;
+}
+
+#gerarOutro{
+  color: white;
+  text-align: right;
+  border-radius: 7px;
+  margin-left: 37%;
+  margin-top: 3%;
+  background-color: springgreen;
+  font-size: 17px;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+form{
+   margin-top: 3%;
+}
+#gerarOutro:hover{
+  color: white;
+  background-color: deepskyblue;
+  
+}
+
+#continuar:hover{
+  color: white;
+  background-color: red;
+}
+
+.rodape{
+  color: orange;
+  border: 1px solid white;
+  background-color: coral ;
+  display: block;
+}
+
+#textoleft
+{
+   margin-left: 15%;
+}

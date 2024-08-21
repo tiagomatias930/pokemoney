@@ -1,0 +1,81 @@
+body{
+   background-color: coral;
+   margin: auto;
+}
+img{
+    margin-left: 23%;
+    border-radius: 50%;
+    padding: 1%;
+    width: 77px;
+    float: left;
+    position: relative;
+}
+
+#continuar:hover{
+   box-shadow: 3px 3px 16px lightcoral;
+   color: #000;
+   background-color: lawngreen;
+}
+.bb{
+   display: flex;
+   margin-left: 2%;
+   margin-top: 4%;
+}
+button{
+   background-color: lawngreen;
+   border-radius: 8px;
+   margin-bottom: 6%;
+   padding: 1%;
+   height: 5%;
+   margin-left: 2%;
+}
+button:hover{
+   color: white;
+   background-color: coral;
+   box-shadow: 3px 3px 15px lawngreen;
+}
+button > a{
+   text-decoration: none;
+   color: #000;
+}
+button  > a:hover{
+   color: white;
+}
+h3{
+   margin-top: 1%;
+   color: white;
+   font-style: italic;
+}
+
+p{
+   color: coral;
+   opacity: 0.7;
+}
+.referencia,.valor_texto,.numoperacao{
+   color: gray;
+}
+.conteiner{
+   background-color: white;
+   display: block;
+   padding: 3%;
+   border-radius: 8px;
+   text-align: center;
+}
+
+input{
+   border-color: coral;
+   border-radius: 8px;
+   text-align: center;
+   background-color: gainsboro;
+}
+
+label{
+   color: gray;
+   text-align: top;
+   font-weight: 400;
+}
+section {
+   margin-top: 12%;
+   margin-left: 25%;
+   margin-right: 25%;
+}

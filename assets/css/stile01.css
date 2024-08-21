@@ -1,0 +1,170 @@
+
+li >a{
+   
+   text-decoration: none;
+}
+
+li >a:hover{
+   color: #000;
+   background-color: gold;
+   border-radius: 8px;
+   box-shadow: 0 2px deepskyblue;
+   padding-right: 1%;
+}
+footer {
+   display: flex;
+   margin-top: 29%;
+}
+
+p{
+   text-align: center;
+   color: white;
+   box-shadow:  0 2px 0 deepskyblue;
+   padding: 1%;
+}
+
+@media screen and (max-width: 768px) {
+  /* Exemplo de estilo para telas menores */
+  body {
+    font-size: 16px;
+    margin: 10px;
+  }
+  /* Você pode adicionar mais estilos aqui */
+}
+
+#imagem{
+  
+   border-radius: 50%;
+   padding: 1%;
+   width: 77px;
+   float: left;
+  
+}
+
+/* Estilos para dispositivos com largura de tela entre 769px e 992px */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* Exemplo de estilo para telas médias */
+  header {
+    color: white;
+    font-style: italic;
+  }
+  /* Você pode adicionar mais estilos aqui */
+}
+
+/* Estilos para dispositivos com largura de tela maior ou igual a 993px */
+@media screen and (min-width: 993px) {
+  /* Exemplo de estilo para telas maiores */
+  article {
+    max-width: 1200px;
+
+  }
+  /* Você pode adicionar mais estilos aqui */
+}
+
+article{
+  margin-top: 24%;
+}
+
+
+aside a{
+  
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+  display: inline;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+  background-color: coral;
+  box-shadow: 12px coral;
+  font-size: 17px;
+}
+.content{
+  color: whitesmoke;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+aside{
+ font-size: 15px;
+ margin-bottom: 5%;
+ margin-left: 47%;
+ 
+}
+
+body{
+  
+  background: url("/assets/img/main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  padding-bottom: 100%;
+}
+
+h4{
+  color: white;
+  margin-left: 6%;
+}
+
+aside a:hover{
+  color: coral;
+  background-color: white;
+
+}
+
+.next{
+
+    border-radius: 55%;
+    font-size: 14px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#cab{
+  overflow: hidden;
+  background-color: coral;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-left: 30%;
+}
+
+#cab a{
+  float: left;
+  text-decoration: none;
+  display: block;
+  padding: 4px;
+  color: azure;
+  text-align: center;/assets/img/main.jpg
+  color: coral;
+}
+
+@media screen and (min-width: 380px) {
+    body {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+#cab >a
+{
+   margin-left: 5%;
+}
+#cab a:hover{
+  color: gold;
+}
+#cab a::after{
+  color: red;
+}

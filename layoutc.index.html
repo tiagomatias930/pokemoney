@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/assets/css/final.css">
+   <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+   <title>Pokemoney</title>
+</head>
+
+<body>
+   <header>
+      <img src="/assets/css/images-removebg-preview.png" alt=""> <br>
+      <h3>Pokemoney</h3>
+   </header>
+   
+   <section>
+      
+      <div class="conteiner">
+         <label for="input">Referência</label>
+         <br>
+         <input type="text" value="" readonly id="refer" placeholder="xxx-xxx-xxx-x " class="form form-control">
+         <pre>
+         </pre>
+         <label for="input">Valor</label><br>
+           <input type="text" value="" readonly id="valor_texto" class="form form-control" placeholder="xxxxx kzs">
+         <pre>
+         </pre>
+         <br>
+         <label for="input">Operação N°</label><input type="text" value="" readonly id="numoperacao" placeholder="* * *" class="form form-control">
+         
+         <div class="left">
+            <p class="dataoperacao"></p>
+         </div>
+               <img src="" alt="" class="imagem">
+              
+         <div class="bb">
+            <input type="submit" value="Nova Referencia" id="continuar" onclick="codeUpdate()" class="btn btn-success mx-4">
+            
+            <button type="submit" onclick="getsFotoUpdate()" class="btn btn-warning"> <a href="#">Concluir Operação</a>
+            </button>
+            
+         </div> 
+      </div>
+   </section>
+   
+
+<<script type="text/javascript" src="/assets/js/ref.js"></script>
+</body>
+
+</html>

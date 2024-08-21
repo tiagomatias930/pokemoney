@@ -1,0 +1,60 @@
+body{
+   color: lightgray;
+   font: Arial normal;
+   font-size: 18px;
+}
+
+img{
+   height: 49px;
+   width: 1001px;
+}
+
+.valor1, .valor2, .validacao, .dica3{
+   color: #000;
+   text-align: center;
+   font-weight: 600;
+}
+
+.dica1{
+   color: orange;
+   text-align: center;
+   font-weight: 600;
+}
+
+.valor1, .valor2 , .validacao{
+   margin-left: 43%;
+}
+
+.valorDica1 , .valorDica2, .valido{
+   color: orange;
+   margin-left: 43%;
+   margin-top: 1%;
+}
+
+hr , .rodapeSecundario{
+   color: gray;
+   font-weight: 600;
+}
+
+.Botao{
+   color: red;
+   background: orange;
+   padding-left: 2%;
+   padding-right: 2%;
+   border-radius: 8px;
+   font-size: 18px;
+   text-align: center;
+   margin-top: 8%;
+   margin-left: 43%;
+}
+
+.dica3{
+   font-weight: 400;
+}
+
+.Botao:hover{
+   color: orange;
+   background: red;
+   opacity: 0.7;
+   border-radius: 8px;
+}
